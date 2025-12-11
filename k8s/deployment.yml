@@ -9,16 +9,15 @@ spec:
     matchLabels:
       app: my-k8s-app
 
-    template:
-      metadata:
-        labels:
-          app: my-k8s-app
+  template:
+    metadata:
+      labels:
+        app: my-k8s-app
 
-      spec:
-        containers:
-          - name: my-k8s-app
-            image:  vikasgautam2003/my-k8s-app:latest
-            ports:
-              - containerPort: 8080
-
-            imagePullPolicy: Always
+    spec:
+      containers:
+        - name: my-k8s-app
+          image: vikasgautam2003/my-k8s-app:latest
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
