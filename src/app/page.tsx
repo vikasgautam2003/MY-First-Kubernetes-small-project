@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: '50px', fontFamily: 'sans-serif' }}>
-      <h1>🚀 My First Kubernetes Pod</h1>
+      <h1>Hello Kubernetes World!</h1>
       <p>If you see this, I am running inside a container!</p>
       <div style={{ 
         padding: '20px', 
